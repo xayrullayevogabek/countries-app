@@ -28,7 +28,6 @@ select.addEventListener("change", (e) => {
 });
 
 input.addEventListener('input',(e) => {
-  console.log(e.target.value)
   const filteredData = allCountriesData.filter(item => item.name.common.toLowerCase().includes(e.target.value))
   updateUI(filteredData)
 })

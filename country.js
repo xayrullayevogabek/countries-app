@@ -27,7 +27,6 @@ const getData = async () => {
 getData();
 
 const updateUI = ([data]) => {
-  console.log(data);
   population.textContent = data.population;
   region.textContent = data.region;
   flag.src = data.flags.png;
@@ -113,7 +112,6 @@ const darkMode = () => {
     navTitle.style.color = "#fff";
     text.forEach((item) => {
       item.classList.add("dark-text");
-      console.log(item.classList);
     });
     countryName.style.color = "#fff";
     if (errorBorder) {
