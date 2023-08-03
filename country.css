@@ -1,0 +1,104 @@
+body {
+  overflow-x: hidden;
+  font-family: "Nunito Sans", sans-serif;
+}
+.btn {
+  width: 130px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px !important;
+}
+.btn i {
+  margin-right: 10px;
+}
+
+.country-name {
+  color: #000;
+  font-weight: bold;
+  margin-top: 20px;
+}
+
+.flag {
+  width: 70%;
+  max-height: 450px;
+  margin-left: 100px;
+}
+
+.detail-text p {
+  color: #000;
+  font-weight: 700;
+  font-size: 20px;
+}
+.detail-obj {
+  font-weight: 100;
+  margin-left: 5px;
+}
+
+.border-country {
+  width: 20%;
+  margin-left: 10px;
+  border: none;
+  border-radius: 7px;
+  padding: 7px 0;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  margin-top: 10px;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background-color: #2b3743;
+  color: #fff !important;
+}
+.dark-mode:hover {
+  background-color: #2b3743;
+}
+.dark-text {
+  color: #fff !important;
+}
+
+.dark-border{
+  background-color: #2b3743;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  color:#fff ;
+}
+
+@media only screen and (max-width: 991px){
+  .flag{
+    margin-left: 0px;
+
+  }
+  .detail{
+    padding-left: 50px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  .flag {
+    margin-left: 0px;
+    width: 90%;
+  }
+  .detail {
+    padding-left: 50px;
+  }
+  .detail-text {
+    margin-top: 10px;
+  }
+}
+
+@media only screen and (max-width: 441px) {
+  .btn {
+    width: 100px !important;
+  }
+  .btn-container {
+    padding: 0 !important;
+  }
+  .detail {
+    padding-left: 30px;
+  }
+  .border-country {
+    width: 25%;
+  }
+}
